@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteBase /~eponari19/
+RewriteRule ^([a-zA-Z0-9]+)$ $1.php

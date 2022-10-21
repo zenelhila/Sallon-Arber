@@ -1,0 +1,102 @@
+.service{
+    display: flex;
+    flex-direction: row;
+
+}
+.serviceImg{
+
+    width: 300px;
+    height: 200px;
+    
+}
+
+
+#tittleText{
+        color: beige;
+        font-size: 100%;
+}
+
+#labelText{
+
+    color: beige;
+    font-size: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    border: 2px solid beige;
+    border-radius: 30px;
+
+    box-shadow: 0px 5px 40px 20px #939384;
+
+    width: 55%;
+}
+
+
+
+.box{
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+.checkbox-round {
+    width: 1.3em;
+    height: 1.3em;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid #fddb3a;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.checkbox-round:checked {
+    background-color: #fddb3a;
+}
+   
+
+button{
+
+    background-color: beige;
+    border: 2px solid beige;
+    border-radius: 10px;
+    width: 100px;
+    height:30px;
+
+}
+
+button:hover{
+    border-color: #fdc93a;
+    background-color: #fdc93a;
+}
+
+button:active{
+    border-color: #ffa600;
+    background-color: #ffa600;
+    
+}
+
+td{
+    border: 1px solid beige;
+    color:beige
+}
+
+td:hover{
+    background-color: beige;
+}

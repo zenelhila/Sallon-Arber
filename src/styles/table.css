@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+body {
+	background: #272727; 
+	font-family: "Montserrat", sans-serif;
+  }
+  
+    a{
+	  text-decoration: none;
+  }
+  .navMenu {
+	 display: flex;
+	 flex-direction: row;
+	 margin: 0% 24% auto 26%;
+  }
+  .navMenu a {
+	color: #f6f4e6;
+	text-decoration: none;
+	font-size: 1em;
+	text-transform: uppercase;
+	font-weight: 500;
+	display: inline-block;
+	width: 80px;
+	-webkit-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+  }
+  
+  .navMenu a:hover {
+	color: #fddb3a;
+  }
+  
+  .logoPosition{
+	  position: relative;
+	  margin: 0% 35% auto 33%;
+  
+  }
+
+
+  
+  .logoImg{
+	width: 90px;
+	height: 70px;
+  }
+  
+  .logoImg:hover{
+	content: url('../pictures/logoYellow.png');
+  }
+  
+  
+  table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	border: 1px solid #939384;
+	margin: 0% 0% 0% 25%;
+	
+  }
+  
+  th, td {
+	text-align: left;
+	padding: 8px;
+	color: #E9DCC9;
+  
+  }
+  th:hover{
+	color:#fddb3a;
+  }
+  
+  tr:nth-child(even){background-color: 	#404040 }
+  
+  .okBtn{
+	  background-color: beige;
+	  border: 2px solid beige;
+	  border-radius: 10px;
+	  width: 40px;
+	  height:25px;
+  }
+  .okBtn:hover{
+	border: 2px solid #009900;
+	background-color: #009900;
+  }
+  .okBtn:active{
+	border: 2px solid #003300;
+	background-color: #003300;
+  }
+  .deleteBtn{
+	  background-color: beige;
+	  border: 2px solid beige;
+	  border-radius: 10px;
+	  width: 100px;
+	  height:30px;
+  }
+  .deleteBtn:hover{
+	  border-color: #fdc93a;
+	  background-color: #fdc93a;
+  }
+  .deleteBtn:active{
+	  border-color: #ffa600;
+	  background-color: #ffa600;
+	  
+  }
+  p{
+	font:2em;
+	color:beige;
+  }
+  
+  .smallBox {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	  
+  }
+  
+  .centerDiv{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+  }
+  
