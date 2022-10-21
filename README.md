@@ -1,8 +1,6 @@
 # Sallon Arber
 This project is part of the CEN 311 WEB TECHNOLOGIES AND PROGRAMMING course, fall semester 2021-2022  and also part of the ConnectIT project as part of EU for Innovation.
 
-Link: http://stud-proj.epoka.edu.al/~eponari19/
-
 Link of the actual website done for the ConnectIT since some redirects in the epoka server are not working because of ~ sign: https://sallonarber.000webhostapp.com/
 
 Group Members:
